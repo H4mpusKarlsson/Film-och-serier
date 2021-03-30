@@ -1,0 +1,35 @@
+*{
+  text-align: center;
+}
+/*
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #4d4d4d;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+  float: left;
+}
+
+li a:hover {
+  background-color: #1a1a1a;
+  transform: scale(1.1);
+  transition: .3s;
+}
+*/
