@@ -1,16 +1,54 @@
-*{
+* {
   text-align: center;
+  box-sizing: border-box;
 }
-/*
-nav {
-  text-align: center;
+html, body {
   margin: 0;
   padding: 0;
-  background-color: #4d4d4d;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
+}
+
+/*#SLIDE_BG{
   width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 8s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: url('../img/dripping amognues.PNG');
+}
+
+@keyframes slideBg{
+  0% {
+      background-image: url('../img/dripping amognues.PNG');
+  }
+  25% {
+      background-image: url('../img/banana.PNG');
+  }
+  50% {
+      background-image: url('../img/foamcall.PNG');
+  }
+  75% {
+      background-image: url('../img/hund.JPG');
+  }
+  100% {
+      background-image: url('../img/pengvin.jpg');
+  }
+}*/
+
+header {
+  font-size: 30px;
+  background-color: lightgray;
+}
+
+nav {
+  width: 100%;
+  font-size: 30px;
+  margin-top: -30px;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
 }
 
 li {
@@ -18,13 +56,15 @@ li {
 }
 
 li a {
+  display: flex;
+  align-items: center;
+  background-color: #4d4d4d;
   text-decoration: none;
-  color: white;
-  width: 150px;
-  display: block;
-  padding: 15px;
   font-weight: bold;
-  float: left;
+  color: white;
+  width: 170px;
+  height: 100px;
+  padding: 15px;
 }
 
 li a:hover {
@@ -32,4 +72,3 @@ li a:hover {
   transform: scale(1.1);
   transition: .3s;
 }
-*/

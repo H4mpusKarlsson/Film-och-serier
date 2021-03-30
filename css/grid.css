@@ -1,13 +1,18 @@
-.container{
+.container {
+  /*margin-top: -800px;*/
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 216px 216px 216px 216px; 
+  grid-template-columns: 1fr 700px 1fr;
+  grid-template-rows: repeat(8, 108px);
 }
 
-header{
-
+header {
+  grid-column: 2 / 3;
+  grid-row: 3 / 5;
+  z-index: 2;
 }
 
 nav {
-
+  grid-column: 2 / 3;
+  grid-row: 5 / 7;
+  z-index: 3;
 }
