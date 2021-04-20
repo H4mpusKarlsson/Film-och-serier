@@ -2,40 +2,11 @@
   text-align: center;
   box-sizing: border-box;
 }
+
 html, body {
   margin: 0;
   padding: 0;
 }
-
-/*#SLIDE_BG{
-  width: 100%;
-  height: 100vh;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  backface-visibility: hidden;
-  animation: slideBg 8s linear infinite 0s;
-  animation-timing-function: ease-in-out;
-  background-image: url('../img/dripping amognues.PNG');
-}
-
-@keyframes slideBg{
-  0% {
-      background-image: url('../img/dripping amognues.PNG');
-  }
-  25% {
-      background-image: url('../img/banana.PNG');
-  }
-  50% {
-      background-image: url('../img/foamcall.PNG');
-  }
-  75% {
-      background-image: url('../img/hund.JPG');
-  }
-  100% {
-      background-image: url('../img/pengvin.jpg');
-  }
-}*/
 
 header {
   font-size: 30px;
