@@ -1,8 +1,8 @@
 .container {
-  /*margin-top: -800px;*/
+  margin-top: -900px;
   display: grid;
   grid-template-columns: 1fr 700px 1fr;
-  grid-template-rows: repeat(8, 108px);
+  grid-template-rows: repeat(7, 108px);
 }
 
 header {

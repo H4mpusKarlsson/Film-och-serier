@@ -8,6 +8,37 @@ html, body {
   padding: 0;
 }
 
+.fade {
+  -webkit-animation: fade 7s;
+  animation: fade 7s;
+  -moz-animation: fade 7s;
+  -o-animation: fade 7s;
+}
+
+@-webkit-keyframes fade {
+0% {opacity: 0.2}
+50% {opacity: 1}
+100% {opacity:0.4}
+}
+
+@-moz-keyframes fade {
+  0% {opacity: 0.2}
+  50% {opacity: 1}
+  100% {opacity:0.4}
+}
+
+@keyframes fade {
+  0% {opacity: 0.2}
+  50% {opacity: 1}
+  100%{opacity: 0.4}
+}
+
+@-o-keyframes fade {
+  0% {opacity: 0.2}
+  50% {opacity: 1}
+  100%{opacity: 0.4}
+}
+
 header {
   font-size: 30px;
   background-color: lightgray;
